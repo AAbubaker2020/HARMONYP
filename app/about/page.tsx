@@ -6,7 +6,7 @@ import Image from "next/image";
 
 export default function About() {
   const { language } = useLanguage();
-  const lang = language === "en" ? "en" : "ar";
+  //const lang = language === "en" ? "en" : "ar";
 
   return (
     <div className="min-h-screen bg-harmony-soft-white">

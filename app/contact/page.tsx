@@ -45,13 +45,14 @@ export default function Contact() {
         );
       }
     } catch (error) {
+      console.error("Error sending message:", error);
       setFormStatus(
         language === "en"
           ? "Error sending message."
           : "خطأ في إرسال الرسالة."
       );
     }
-
+    
     setLoading(false);
   };
 
