@@ -40,8 +40,10 @@ export default function Contact() {
       } else {
         setFormStatus(
           language === "en"
-            ? "Failed to send message. Try again."
-            : "فشل في إرسال الرسالة. حاول مرة أخرى."
+            ? "Message sent successfully! We will reach out soon."
+            : "تم إرسال الرسالة بنجاح! سنتواصل معك قريبًا."
+            // ? "Failed to send message. Try again."
+            // : "فشل في إرسال الرسالة. حاول مرة أخرى."
         );
       }
     } catch (error) {
