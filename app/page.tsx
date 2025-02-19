@@ -13,7 +13,7 @@ export default function Home() {
   const { language, translations } = languageContext;
 
   const content = {
-    title: language === "en" ? "Welcome to Harmony Industrial Solutions" : "مرحبًا بكم في حلول هارموني الصناعية",
+    title: language === "en" ? "Welcome to Harmony Precision Solutions" : "مرحبًا بكم في حلول هارموني الصناعية",
     achievementsTitle: language === "en" ? "Our Key Achievements" : "إنجازاتنا الرئيسية",
     achievements: [
       { number: "10+", text: "Years of Experience" },

@@ -38,7 +38,7 @@ export default function About() {
               {language === "en" ? "Our Mission" : "مهمتنا"}
             </h2>
             <p className="text-harmony-slate-gray leading-relaxed text-lg">
-              At Harmony Industrial Solutions, our mission is to redefine industrial efficiency by integrating 
+              At Harmony Precision Solutions, our mission is to redefine industrial efficiency by integrating 
               cutting-edge automation, artificial intelligence, and energy management solutions.  
               We empower industries with innovative and sustainable strategies to enhance productivity 
               while ensuring environmental responsibility.
@@ -125,7 +125,7 @@ export default function About() {
             <Image src="/Journey.png" alt="Our Journey" layout="fill" objectFit="cover" />
           </div>
           <p className="text-harmony-slate-gray text-lg text-left max-w-3xl mx-auto mb-8">
-            From humble beginnings to global impact, Harmony Industrial Solutions has continuously evolved 
+            From humble beginnings to global impact, Harmony precision has continuously evolved 
             to meet the challenges of a rapidly changing industrial landscape.  
             We have expanded our expertise, leveraging AI, automation, and sustainability to drive progress.
           </p>
@@ -133,7 +133,7 @@ export default function About() {
           {/* Timeline */}
           <div className="space-y-12 max-w-3xl mx-auto">
             {[
-              { year: "2014", event: "Founded Harmony Industrial Solutions with a vision to innovate industrial processes." },
+              { year: "2014", event: "Founded Harmony precision Solutions with a vision to innovate industrial processes." },
               { year: "2021", event: "Expanded operations across 6 countries, serving diverse global industries." },
               { year: "2025", event: "Launched a breakthrough sustainable industrial solutions initiative." },
             ].map((milestone, index) => (

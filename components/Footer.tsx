@@ -140,7 +140,7 @@ const Footer = () => {
           viewport={{ once: true }}
         >
           <p className="text-sm text-gray-400">
-            © {new Date().getFullYear()} Harmony Industrial. {t("rights")}
+            © {new Date().getFullYear()} Harmony Precision - Rights Reserved.
           </p>
           <div className="flex space-x-4">
             <Link href="/privacy" className="text-sm text-gray-400 hover:text-yellow-400">{t("privacy-policy")}</Link>
